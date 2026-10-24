@@ -1,0 +1,40 @@
+Controlled-initial-state outcome tree
+Interpretable approximation of the frozen PPO policy over the controlled initial-state distribution; not a universal or exact failure boundary.
+
+|--- cart_velocity <= -1.12
+|   |--- cart_position <= -0.50
+|   |   |--- class: fail
+|   |--- cart_position >  -0.50
+|   |   |--- pole_angular_velocity <= 0.38
+|   |   |   |--- cart_position <= 1.50
+|   |   |   |   |--- class: fail
+|   |   |   |--- cart_position >  1.50
+|   |   |   |   |--- class: fail
+|   |   |--- pole_angular_velocity >  0.38
+|   |   |   |--- pole_angle <= 0.14
+|   |   |   |   |--- class: success
+|   |   |   |--- pole_angle >  0.14
+|   |   |   |   |--- class: fail
+|--- cart_velocity >  -1.12
+|   |--- cart_velocity <= 1.12
+|   |   |--- pole_angular_velocity <= -1.12
+|   |   |   |--- pole_angle <= -0.05
+|   |   |   |   |--- class: fail
+|   |   |   |--- pole_angle >  -0.05
+|   |   |   |   |--- class: success
+|   |   |--- pole_angular_velocity >  -1.12
+|   |   |   |--- pole_angle <= 0.14
+|   |   |   |   |--- class: success
+|   |   |   |--- pole_angle >  0.14
+|   |   |   |   |--- class: fail
+|   |--- cart_velocity >  1.12
+|   |   |--- pole_angular_velocity <= -0.38
+|   |   |   |--- cart_position <= 0.50
+|   |   |   |   |--- class: success
+|   |   |   |--- cart_position >  0.50
+|   |   |   |   |--- class: fail
+|   |   |--- pole_angular_velocity >  -0.38
+|   |   |   |--- cart_position <= -1.50
+|   |   |   |   |--- class: fail
+|   |   |   |--- cart_position >  -1.50
+|   |   |   |   |--- class: fail

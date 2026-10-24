@@ -1,0 +1,94 @@
+|--- state_2 <= -0.11
+|   |--- state_3 <= -0.05
+|   |   |--- state_3 <= -0.41
+|   |   |   |--- state_2 <= -0.14
+|   |   |   |   |--- state_3 <= -0.66
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_3 >  -0.66
+|   |   |   |   |   |--- class: True
+|   |   |   |--- state_2 >  -0.14
+|   |   |   |   |--- state_3 <= -0.69
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_3 >  -0.69
+|   |   |   |   |   |--- class: True
+|   |   |--- state_3 >  -0.41
+|   |   |   |--- state_2 <= -0.17
+|   |   |   |   |--- state_2 <= -0.18
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_2 >  -0.18
+|   |   |   |   |   |--- class: True
+|   |   |   |--- state_2 >  -0.17
+|   |   |   |   |--- state_0 <= -0.47
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_0 >  -0.47
+|   |   |   |   |   |--- class: True
+|   |--- state_3 >  -0.05
+|   |   |--- state_2 <= -0.16
+|   |   |   |--- state_3 <= 0.27
+|   |   |   |   |--- state_0 <= -0.19
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_0 >  -0.19
+|   |   |   |   |   |--- class: True
+|   |   |   |--- state_3 >  0.27
+|   |   |   |   |--- state_0 <= -1.92
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_0 >  -1.92
+|   |   |   |   |   |--- class: False
+|   |   |--- state_2 >  -0.16
+|   |   |   |--- state_0 <= -1.90
+|   |   |   |   |--- state_0 <= -2.06
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_0 >  -2.06
+|   |   |   |   |   |--- class: True
+|   |   |   |--- state_0 >  -1.90
+|   |   |   |   |--- state_3 <= 0.20
+|   |   |   |   |   |--- class: False
+|   |   |   |   |--- state_3 >  0.20
+|   |   |   |   |   |--- class: False
+|--- state_2 >  -0.11
+|   |--- state_2 <= 0.10
+|   |   |--- state_0 <= -1.96
+|   |   |   |--- state_0 <= -2.10
+|   |   |   |   |--- state_1 <= -0.77
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_1 >  -0.77
+|   |   |   |   |   |--- class: True
+|   |   |   |--- state_0 >  -2.10
+|   |   |   |   |--- state_1 <= -1.52
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_1 >  -1.52
+|   |   |   |   |   |--- class: True
+|   |   |--- state_0 >  -1.96
+|   |   |   |--- state_3 <= -0.64
+|   |   |   |   |--- state_2 <= -0.03
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_2 >  -0.03
+|   |   |   |   |   |--- class: False
+|   |   |   |--- state_3 >  -0.64
+|   |   |   |   |--- state_3 <= 0.78
+|   |   |   |   |   |--- class: False
+|   |   |   |   |--- state_3 >  0.78
+|   |   |   |   |   |--- class: True
+|   |--- state_2 >  0.10
+|   |   |--- state_3 <= 0.06
+|   |   |   |--- state_2 <= 0.17
+|   |   |   |   |--- state_0 <= -2.16
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_0 >  -2.16
+|   |   |   |   |   |--- class: False
+|   |   |   |--- state_2 >  0.17
+|   |   |   |   |--- state_3 <= -0.30
+|   |   |   |   |   |--- class: False
+|   |   |   |   |--- state_3 >  -0.30
+|   |   |   |   |   |--- class: True
+|   |   |--- state_3 >  0.06
+|   |   |   |--- state_3 <= 0.40
+|   |   |   |   |--- state_2 <= 0.17
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_2 >  0.17
+|   |   |   |   |   |--- class: True
+|   |   |   |--- state_3 >  0.40
+|   |   |   |   |--- state_2 <= 0.14
+|   |   |   |   |   |--- class: True
+|   |   |   |   |--- state_2 >  0.14
+|   |   |   |   |   |--- class: True

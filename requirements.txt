@@ -1,0 +1,8 @@
+gymnasium[classic-control]
+pandas
+stable-baselines3
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.8.0+cu126
+scikit-learn
+joblib
+matplotlib
